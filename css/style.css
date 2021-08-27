@@ -671,7 +671,9 @@ color: #070707;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: ". .";
     }
-
+    .content_body_wrapper.responsive_content_body {
+        margin-left: 0px;
+    }
 }
 
 /*mobile rotation*/
@@ -712,7 +714,9 @@ color: #070707;
         grid-template-areas: ". .";
     }
 
-
+    .content_body_wrapper.responsive_content_body {
+        margin-left: 0px;
+    }
 }
 
 /*mobile*/
@@ -760,7 +764,9 @@ display: flex;
         grid-template-columns: 1fr;
         grid-template-areas: ".";
     }
-
+    .content_body_wrapper.responsive_content_body {
+        margin-left: 0px;
+    }
 
 }
 @media (max-width: 350px) { 
