@@ -705,7 +705,9 @@ color: #070707;
             transform: translate(0%) !important;
         }
      */
-
+     .responsive_nav_bar.responsive_bar {
+        transform: translate(-100%);
+    }
      .content_body_wrapper {
         margin-left: 0px;
     }
